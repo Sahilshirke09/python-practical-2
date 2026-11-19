@@ -1,10 +1,10 @@
-# --- Experiment A: Built-in types ---
+#Experiment A: Built-in types
 print("=== Experiment A ===")
 values = [42, 3.14, "42", [1, 2], (1, 2), {"x": 1}, {1, 2}]
 for value in values:
     print(repr(value), "->", type(value).__name__)
 
-# --- Experiment B: Type conversion ---
+#Experiment B: Type conversion
 print("\n=== Experiment B ===")
 print(int("25") + 5)
 print(float("3.5") * 2)
